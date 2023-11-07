@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	int password[64], i, sum = 0, n;
+	int password[100], i, sum = 0, n;
 
 	srand(time(NULL));
-	for (i = 0; i < 64; i++)
+	for (i = 0; i < 100; i++)
 	{
 		password[i] = rand() % 78;
 		sum + = password[i] + '0';
